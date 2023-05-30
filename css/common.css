@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?xzy9rr');
+    src: url('../fonts/icomoon.eot?xzy9rr#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?xzy9rr') format('truetype'),
+        url('../fonts/icomoon.woff?xzy9rr') format('woff'),
+        url('../fonts/icomoon.svg?xzy9rr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    height: 101px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 195px;
+    height: 42px;
+}
+
+.logo a {
+    overflow: hidden;
+    display: block;
+    width: 195px;
+    height: 42px;
+    background: url(../image/logo.png) no-repeat 0 0;
+    text-indent: -999px;
+}
+
+.nav {
+    position: absolute;
+    top: 30px;
+    left: 265px;
+}
+
+.nav li {
+    float: left;
+
+}
+
+.nav li:nth-child(-n + 2) {
+    margin-right: 26px;
+}
+
+
+.nav li a {
+    display: block;
+    padding: 7.5px 10px 5.5px;
+    border-bottom: 2px solid transparent;
+    font-size: 18px;
+    color: #050505;
+}
+
+.nav li a:hover,
+.nav li a:active,
+.nav li a:focus {
+    color: #00B4FF;
+    border-bottom: 2px solid #00B4FF;
+}
+
+.search {
+    position: absolute;
+    top: 30px;
+    left: 605.5px;
+    width: 411px;
+    height: 40px;
+}
+
+.search input {
+    width: 340px;
+    height: 10px;
+    padding: 14px 0 14px 20px;
+    border: 1px solid #00A4FF;
+    border-right: none;
+    outline: none;
+    font-size: 14px;
+    color: #989898;
+}
+
+.search_icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 40px;
+    border: none;
+    background: url(../image/fa-search.png) no-repeat;
+}
+
+.userinfo {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    height: 40px;
+    line-height: 40px;
+}
+
+.user_img {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 6px;
+    vertical-align: middle;
+    background-image: url(../image/userimage.png);
+}
+
+.userinfo span {
+    font-size: 14px;
+    color: #666666;
+}
+
+.footer {
+    height: 417px;
+    margin-top: 40px;
+    background-color: #fff;
+}
+
+.footer .w {
+    position: relative;
+}
+
+.copyright,
+.dl_box {
+    position: absolute;
+    top: 32px;
+}
+
+.copyright {
+    left: 20px;
+}
+
+.copyright_con {
+    margin-top: 24px;
+}
+
+.download_app {
+    width: 118px;
+    height: 34px;
+    margin-top: 15px;
+    border: 1px solid #00A4FF;
+    font-size: 16px;
+    color: #00A4FF;
+    text-align: center;
+    line-height: 34px;
+}
+
+.dl_box {
+    right: 20px;
+}
+
+.dl_box dl {
+    float: left;
+    margin-right: 146px;
+    color: #333333;
+}
+
+.dl_box dl:last-child {
+    margin-right: 0;
+}
+
+.dl_box dt {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.dl_box dd {
+    font-size: 12px;
+}
