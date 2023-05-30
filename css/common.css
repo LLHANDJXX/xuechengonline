@@ -176,3 +176,15 @@
 .dl_box dd {
     font-size: 12px;
 }
+
+.motion,
+.motion ul {
+    perspective: 500px;
+}
+
+.motion li:hover,
+.motion div:hover {
+    box-shadow: 0 4px 2.94px 0.04px rgba(118, 118, 118, .2);
+    transform: translate3D(0, -5px, 5px);
+    transition: all .3s;
+}

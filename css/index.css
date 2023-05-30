@@ -211,9 +211,9 @@
     color: #A5A5A5;
 }
 
-.recommend_bd ul {
+/* .recommend_bd ul {
     perspective: 500px;
-}
+} */
 
 .recommend_bd li {
     position: relative;
@@ -224,11 +224,11 @@
     background-color: #fff;
 }
 
-.recommend_bd li:hover {
+/* .recommend_bd li:hover {
     box-shadow: 0 4px 2.94px 0.04px rgba(118, 118, 118, .2);
     transform: translate3D(0, -5px, 5px);
     transition: all .3s;
-}
+} */
 
 .recommend_bd li:nth-child(-n + 5) {
     margin-bottom: 15px;
